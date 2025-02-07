@@ -45,9 +45,10 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="bg-blue-100 py-16 px-4">
-      <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Contact Us</h2>
+    <section id="Contact">
+      <div className="container mx-auto text-center my-6">
+        
+        <h2 className='text-red-800 font-bold text-2xl'>Contact Us</h2>
         <p className="text-lg text-gray-600 mb-10">
           We would love to hear from you. Please fill out the form below to get in touch.
         </p>

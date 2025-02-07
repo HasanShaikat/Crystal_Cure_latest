@@ -3,8 +3,7 @@ import './About.css'
 const About=()=>{
     
     return(
-        <div className='my-4'>
-        {/* <div className="flex justify-center text-3xl uppercase font-semibold">About Me</div> */}
+        <section className='my-4' id='About'>
         <div className="container mx-auto my-6 grid md:grid-cols-2 px-4" >
             <div className='px-4 text-justify'>
                 <p className="text-2xl text-red-600 pt-4">About Our Pest Service</p>
@@ -27,8 +26,7 @@ Crystal Cure Pest Control</span>
                 <img src="/public/images/about.jpg" alt="About US" className='flex flex-center' />
             </div>
         </div>
-        <hr className='bg-blue-100 py-2' />
-        </div>
+        </section>
     )
 }
 export default About;
