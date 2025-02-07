@@ -46,14 +46,15 @@ const ContactUs = () => {
 
   return (
     <section id="Contact">
-      <div className="container mx-auto text-center my-6">
+      <div className="container mx-auto text-center my-6 px-4">
         
         <h2 className='text-red-800 font-bold text-2xl'>Contact Us</h2>
         <p className="text-lg text-gray-600 mb-10">
           We would love to hear from you. Please fill out the form below to get in touch.
         </p>
 
-        <div className="max-w-lg mx-auto bg-white p-8 rounded-3xl shadow-xl">
+        <div className="grid md:grid-cols-2 gap-4">
+          <div className="mx-8 bg-white p-4 rounded-3xl shadow-xl">
           <form onSubmit={handleSubmit}>
             {/* Name */}
             <div className="mb-6">
@@ -105,11 +106,35 @@ const ContactUs = () => {
 
             <button
               type="submit"
-              className="w-full py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 focus:outline-none"
+              className="w-full py-3 bg-red-800 text-white font-semibold rounded-lg hover:bg-red-900 focus:outline-none"
             >
               {submitted ? "Thank You!" : "Submit"}
             </button>
           </form>
+          </div>
+
+        <div className="space-y-6 content-center">
+
+          <div>
+            <h4 className="text-lg font-medium text-gray-700">Email</h4>
+            <p className="text-gray-600">crystalcurebd@gmail.com</p>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-medium text-gray-700">Phone</h4>
+            <p className="text-gray-600"> +880 189197 1990 / +880 190448 0448</p>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-medium text-gray-700">Address</h4>
+            <p className="text-gray-600">672 B, North Kafrul, Dhaka-1207</p>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-medium text-gray-700">Website</h4>
+            <p className="text-gray-600">www.ccpestcontrolbd.com</p>
+          </div>
+        </div>
         </div>
 
         {submitted && (

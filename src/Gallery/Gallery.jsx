@@ -1,15 +1,28 @@
-
 const Gallery = () => {
-  return (
-    <div className="container mx-auto my-6">
-        <h1 className='text-red-800 font-bold text-2xl text-center pb-8'>Gallery</h1>
-        <div className="grid md:grid-cols-3 justify-items-center gap-4">
-          <img src="/public/images/IMG_20241216_124358.jpg" alt="" className="h-96"/>
-          <img src="/public/images/IMG_20241216_124948.jpg" alt="" className="h-96"/>
-          <img src="/public/images/IMG_20241216_125224.jpg" alt="" className="h-96"/>
+    const images = [
+      '/public/images/IMG_20241216_124358.jpg',
+      '/public/images/IMG_20241216_124948.jpg',
+      '/public/images/IMG_20241216_124358.jpg',
+      '/public/images/IMG_20241216_125224.jpg',
+    ];
+  
+    return (
+      <div className="container mx-auto p-6" id="Gallery">
+        <h2 className="text-3xl font-semibold text-center text-red-900 mb-2">Gallery</h2>
+        <p className="text-center mb-8">Our Experties Working Time</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {images.map((src, index) => (
+            <div key={index} className="relative overflow-hidden rounded-lg shadow-lg">
+              <img
+                src={src}
+                alt={`Gallery Image ${index + 1}`}
+                className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
+              />
+            </div>
+          ))}
         </div>
-    </div>
-  )
-}
-
-export default Gallery
+      </div>
+    );
+  };
+  
+  export default Gallery;

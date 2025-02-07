@@ -5,9 +5,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 // import './Hero.css'
 
 const navigation = [
-  { name: 'About', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About', href: '#About' },
+  { name: 'Services', href: '#Service' },
+  { name: 'Faq', href: '#Faq' },
+  { name: 'Contact', href: '#Contact' },
 ]
 
 const Hero=()=>{
@@ -46,7 +47,7 @@ const Hero=()=>{
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                       <span href="#" className="font-semibold text-red-900">
-                        +880 19044 80448
+                      +880 189197 1990 / +880 190448 0448
                       </span>
                     </div>
                   </nav>
@@ -89,7 +90,7 @@ const Hero=()=>{
                               href="#"
                               className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                             >
-                              +8801 90448 0448
+                               +880 189197 1990 / +880 190448 0448
                             </a>
                           </div>
                         </div>
@@ -115,7 +116,7 @@ const Hero=()=>{
                       </p>
                       <div className="mt-10 flex items-center justify-center gap-x-6">
                         <a
-                          href="#"
+                          href="#Contact"
                           className="rounded-md bg-red-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                           Contact Now

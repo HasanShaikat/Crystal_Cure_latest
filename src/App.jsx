@@ -9,7 +9,6 @@ import Gallery from './Gallery/Gallery';
 import Faq from './Faq/Faq';
 import ExtraLine from './Extra-Line/ExtraLine';
 
-
 const App = () => {
 
   return (
