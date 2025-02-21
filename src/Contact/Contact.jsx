@@ -1,3 +1,5 @@
+// import { useState } from "react";
+
 import { useState } from "react";
 
 
@@ -148,3 +150,40 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
+
+
+// const Contact = () => {
+//   const [name, setName] = useState('');
+//   const [email, setEmail] = useState('');
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Handle form submission logic here
+//     console.log('Form submitted:', { name, email });
+//     setName(''); // Clear the name input
+//     setEmail(''); // Clear the email input
+//   };
+
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <label htmlFor="name">Name:</label>
+//       <input
+//         type="text"
+//         id="name"
+//         value={name}
+//         onChange={(e) => setName(e.target.value)}
+//       />
+//       <label htmlFor="email">Email:</label>
+//       <input
+//         type="email"
+//         id="email"
+//         value={email}
+//         onChange={(e) => setEmail(e.target.value)}
+//       />
+//       <button type="submit">Submit</button>
+//     </form>
+//   );
+// };
+
+// export default Contact;

@@ -19,11 +19,11 @@ const App = () => {
       <ExtraLine />
       <Service />
       <ExtraLine />
+      <Gallery />
+      <ExtraLine />
       <Faq />
       <ExtraLine />
       <Contact />
-      <ExtraLine />
-      <Gallery />
       <ExtraLine />
       <Footer />
     </div>

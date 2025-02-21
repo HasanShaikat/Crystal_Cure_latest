@@ -6,7 +6,8 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-4">
             <div className="grid justify-center place-items-center gap-4">
-                <img src="/public/images/crystal-cure-final-logo.png" alt="Footer Logo" className="w-28"/>
+                <img src="
+                /images/crystal-cure-final-logo.png" alt="Footer Logo" className="w-28"/>
                 <p>Crystal Cure Pest Control</p>
             </div>
             <div className="grid gap-y-4">
@@ -16,10 +17,13 @@ const Footer = () => {
 
               We stand by the quality of our services. Crystal Cure offers guarantees and follow-up inspections to ensure the long-term effectiveness of our pest control solutions.</p>
             </div>
+            <div>
+              <img src="/images/technician.jpg" alt="" />
             <div className="flex justify-evenly items-center">
               <a href="https://www.facebook.com/ccpcsbd" target="_blank" className="text-blue-700"><FaFacebook size={25}/></a>
               <a href="" target="_blank" className="text-blue-800"><FaLinkedinIn size={25}/></a>
               <a href="" target="_blank" className="text-gray-700"><FaMailBulk size={25}/></a>
+            </div>
             </div>
         </div>
         {/* Footer Bottom */}
