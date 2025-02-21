@@ -1,9 +1,9 @@
 const Gallery = () => {
     const images = [
-      '/public/images/IMG_20241216_124358.jpg',
-      '/public/images/IMG_20241216_124948.jpg',
-      '/public/images/IMG_20241216_124358.jpg',
-      '/public/images/IMG_20241216_125224.jpg',
+      '/images/IMG_20241216_124358.jpg',
+      '/images/IMG_20241216_124948.jpg',
+      '/images/IMG_20241216_124358.jpg',
+      '/images/IMG_20241216_125224.jpg',
     ];
   
     return (

@@ -23,7 +23,7 @@ Best <br />
 Crystal Cure Pest Control</span>
             </div>
             <div>
-                <img src="/public/images/about.jpg" alt="About US" className='flex flex-center' />
+                <img src="/images/about.jpg" alt="About US" className='flex flex-center' />
             </div>
         </div>
         </section>

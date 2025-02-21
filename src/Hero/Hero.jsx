@@ -23,7 +23,7 @@ const Hero=()=>{
                         <span className="sr-only">Crystal Cure Pest Control</span>
                         <img
                           alt=""
-                          src="../public/images/crystal-cure-final-logo.png"
+                          src="/images/crystal-cure-final-logo.png"
                           className="h-20 w-auto"
                         />
                       </a>

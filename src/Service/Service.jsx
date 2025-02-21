@@ -5,7 +5,7 @@ const Service = () => {
       <div className='container mx-auto px-4 my-4'>
         <div className="grid md:grid-cols-2">
             <div className="grid content-center">
-                <img src="/public/images/about.jpg" alt="Service left side" />
+                <img src="/images/about.jpg" alt="Service left side" />
             </div>
             <div className='px-4'>
                 <p className='text-red-800 font-bold text-2xl'>WHAT WE OFFER</p>
