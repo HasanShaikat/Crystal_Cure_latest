@@ -8,6 +8,7 @@ import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Faq from './Faq/Faq';
 import ExtraLine from './Extra-Line/ExtraLine';
+import ServiceCard from './ServiceCard/ServiceCard';
 
 const App = () => {
 
@@ -17,10 +18,13 @@ const App = () => {
       <ExtraLine />
       <About/>
       <ExtraLine />
-      <Service />
-      <ExtraLine />
+      {/* <Service />
+      <ExtraLine /> */}
+      <ServiceCard/>
+      <ExtraLine/>
       <Gallery />
       <ExtraLine />
+      
       <Faq />
       <ExtraLine />
       <Contact />

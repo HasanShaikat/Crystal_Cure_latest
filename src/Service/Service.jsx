@@ -1,10 +1,12 @@
 const Service = () => {
+  
 
   return (
 <section id="Service">
       <div className='container mx-auto px-4 my-4'>
         <div className="grid md:grid-cols-2">
             <div className="grid content-center">
+            
                 <img src="/images/about.jpg" alt="Service left side" />
             </div>
             <div className='px-4'>
