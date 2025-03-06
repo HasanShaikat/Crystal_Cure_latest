@@ -5,10 +5,10 @@ const About=()=>{
     return(
         <section className='my-4' id='About'>
         <div className="container mx-auto my-6 grid md:grid-cols-2 px-4" >
-            <div className='px-4 text-justify'>
-                <p className="text-2xl text-red-600 pt-4">About Our Pest Service</p>
-                <p className='text-4xl md:py-6 sm:py-2'>Welcome to ClearWay -  a Leading Pest Control Company</p>
-                <span className='text-black-300'>Crystal Cure Pest Control since 2019. <br /><br />
+            <div className='px-4'>
+                <p className="text-2xl text-red-800 pt-4">About Our Pest Service</p>
+                <p className='text-4xl md:py-6 sm:py-2 '>Welcome to ClearWay -  a Leading Pest Control Company</p>
+                <span className='text-black-300 grid text-justify'>Crystal Cure Pest Control since 2020. <br /><br />
 
 Crystal Cure Pest Control is a dedicated and reliable pest management service that aims to provide comprehensive solutions for residential and commercial spaces. With a focus on quality and customer satisfaction, Your satisfaction is our priority. our expert team employs modern and eco-friendly methods to address and eliminate various pest issues. <br /><br />
 

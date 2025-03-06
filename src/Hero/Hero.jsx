@@ -14,19 +14,18 @@ const navigation = [
 const Hero=()=>{
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
      return (
-       <div id='Hero' className=''>
+       <div id='Hero' className='container mx-auto' >
                <div className="opacity-4" id='bg'>
                 <header className="absolute inset-x-0 top-0 z-50 container mx-auto ">
-                  <nav aria-label="Global" className="flex items-center justify-between py-4 px-6 lg:px-8">
+                  <nav aria-label="Global" className="flex items-center justify-between py-6 px-6 lg:px-8">
                     <div className="flex lg:flex-1">
                       <a href="#" className="-m-1.5 p-1.5">
-                        <span className="sr-only">Crystal Cure Pest Control</span>
                         <img
                           alt=""
                           src="/images/crystal-cure-final-logo.png"
                           className="h-20 w-auto"
                         />
-                      </a>
+                      </a> <h6 className='grid items-center  text-red-900 font-bold text-md'>Crystal Cure Pest Control</h6>
                     </div>
                     <div className="flex lg:hidden">
                       <button
@@ -98,17 +97,16 @@ const Hero=()=>{
                     </DialogPanel>
                   </Dialog>
                 </header>
-          
-                <div className="relative isolate px-6 pt-14 lg:px-8">
-                  {/* <img src="/public/images/technician.jpg" alt="" srcset="" /> */}
+          {/* Banner Part  */}
+                <div className="relative isolate px-6 pt-14 lg:px-8" >
                   <div
                     aria-hidden="true"
-                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" 
                   ></div>
-                  <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                  <div className="mx-auto grid sm:grid-cols-2 items-center gap-4 p-8">
                    
-                    <div className="text-center">
-                      <h1 className="text-balance text-2xl font-semibold tracking-tight text-gray-900 sm:text-5xl text-red-800">
+                    <div className="text-center md:py-2 py-8" >
+                      <h1 className="text-balance text-2xl font-semibold tracking-tight text-gray-900  md:text-4xl text-red-800">
                         Crystal Cure Pest Control
                       </h1>
                       <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
@@ -120,13 +118,11 @@ const Hero=()=>{
                           className="rounded-md bg-red-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                           Contact Now
-                        </a>
-                        
+                        </a>                        
                       </div>
                     </div>
+                    <div className=''><img src="/images/banner.jpg" alt="" /></div>
                   </div>
-
-
                   <div
                     aria-hidden="true"
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
